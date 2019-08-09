@@ -1,0 +1,49 @@
+.main-body {
+
+    margin-top: 8vh;
+
+}
+
+
+
+.outer
+
+{
+
+width:100%;
+
+text-align: center;
+
+}
+
+
+
+.inner
+
+{
+
+display: inline-block;
+
+}
+
+
+
+.left-column {
+
+    margin-top: 3vh;
+
+}
+
+
+
+.weapons {
+
+    margin-top: 3vh;
+
+}
+
+textarea {
+    overflow-y: scroll;
+    height: 700px;
+    
+}
