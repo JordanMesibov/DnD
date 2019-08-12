@@ -9,3 +9,37 @@ function thaum() {
     $("#overwrite").append("<p>• You alter the appearance of your eyes for 1 minute. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>");
 }
 
+function burning() {
+    $("#overwrite").html("<p>Burning Hands</p>");
+    $("#overwrite").append("<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15 ft cone must make a dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>");
+}
+
+function chill() {
+    $("#overwrite").html("<p>Chill Touch</p>");
+    $("#overwrite").append("<p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target. If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn. This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>");
+}
+
+function eldritch() {
+    $("#overwrite").html("<p>Eldritch Blast</p>");
+    $("#overwrite").append("<p>A beam of crackling energy streak toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage. The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>");
+}
+
+function protection() {
+    $("#overwrite").html("<p>Protection From Good and Evil</p>");
+    $("#overwrite").append("<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead. The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>");
+}
+
+function darkone() {
+    $("#overwrite").html("<p>Dark One's Blessing</p>");
+    $("#overwrite").append("<p>Gain 4 temp HPs when you reduce a hostile creature to 0 HPs.</p>");
+}
+
+function hellish() {
+    $("#overwrite").html("<p>Hellish Resistance</p>");
+    $("#overwrite").append("<p>Resistance to fire damage.</p>");
+}
+
+function infernal() {
+    $("#overwrite").html("<p>Infernal Legacy</p>");
+    $("#overwrite").append("<p>You know thaumaturgy and can cast  once per day. CHA is the spellcasting ability.</p>");
+}

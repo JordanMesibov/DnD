@@ -10,9 +10,9 @@
 
 {
 
-width:100%;
+/* width:100%;
 
-text-align: center;
+text-align: center; */
 
 }
 
@@ -62,10 +62,14 @@ textarea {
 }
 
 
+.armor-stats {
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 768px) {
 
     .armor-stats {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 }
