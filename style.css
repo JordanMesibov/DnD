@@ -1,10 +1,16 @@
+/* japanese indigo: #2B4141;
+dark vanilla: #CACAAA;
+pale gold: #EEC584;
+pastel pink: #E0AC9D;
+pale silver: #C8C2AE; */
+
+
+
 .main-body {
 
     margin-top: 8vh;
 
 }
-
-
 
 .outer
 
@@ -73,3 +79,27 @@ textarea {
     }
 
 }
+
+body {
+    background-color: #2B4141;
+    color: #C8C2AE;
+}
+
+.dropdown-toggle {
+    background-color: #EEC584;
+    color: #2B4141;
+}
+
+.dropdown-toggle:hover {
+    background-color: #E0AC9D;
+}
+
+a {
+    text-decoration: none;
+    color: #E0AC9D;
+}
+
+a:hover {
+    color: #EEC584;
+}
+
