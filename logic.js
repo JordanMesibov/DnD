@@ -1,3 +1,5 @@
+
+
 function thaum() {
     $("#overwrite").html("<p>Thaumaturgy - once per day</p>");
     $("#overwrite").append("<p>You manifest a minor wonder, a sign of supernatural power, within range (30 ft). You create one of the following magical effects within range:</p>");
