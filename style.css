@@ -103,3 +103,17 @@ a:hover {
     color: #EEC584;
 }
 
+.navbar {
+    background-color: #EEC584;
+    color: #2B4141;
+}
+
+.navbar a {
+    color: #2B4141;
+}
+
+@media only screen and (max-width: 744px) {
+    .navbar {
+        font-size: 12px;
+    }
+}
