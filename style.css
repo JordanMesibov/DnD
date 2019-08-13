@@ -106,14 +106,22 @@ a:hover {
 .navbar {
     background-color: #EEC584;
     color: #2B4141;
+    font-weight: bold;
 }
 
 .navbar a {
     color: #2B4141;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 744px) {
     .navbar {
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .navbar {
+        font-size: 10px;
     }
 }
