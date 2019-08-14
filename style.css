@@ -125,3 +125,16 @@ a:hover {
         font-size: 10px;
     }
 }
+
+.footer {
+    margin: 5px 1px;
+    height: 100px;
+    background-color: black;
+    max-width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.dice {
+    padding-top: 10px;
+}

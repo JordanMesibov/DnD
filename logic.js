@@ -45,3 +45,50 @@ function infernal() {
     $("#overwrite").html("<p>Infernal Legacy</p>");
     $("#overwrite").append("<p>You know thaumaturgy and can cast  once per day. CHA is the spellcasting ability.</p>");
 }
+
+
+function randomIntFromInterval(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+function rolld4() {
+    $("#overwrite").html("<h1>D4 Rolled</h1>");
+    $("#overwrite").append("<h2>Result:</h2>");
+    let rolled = randomIntFromInterval(1,4);
+    $("#overwrite").append("<h1>" + rolled + "</h1>");
+}
+
+function rolld6() {
+    $("#overwrite").html("<h1>D6 Rolled</h1>");
+    $("#overwrite").append("<h2>Result:</h2>");
+    let rolled = randomIntFromInterval(1,6);
+    $("#overwrite").append("<h1>" + rolled + "</h1>");
+}
+
+function rolld8() {
+    $("#overwrite").html("<h1>D8 Rolled</h1>");
+    $("#overwrite").append("<h2>Result:</h2>");
+    let rolled = randomIntFromInterval(1,8);
+    $("#overwrite").append("<h1>" + rolled + "</h1>");
+}
+
+function rolld10() {
+    $("#overwrite").html("<h1>D10 Rolled</h1>");
+    $("#overwrite").append("<h2>Result:</h2>");
+    let rolled = randomIntFromInterval(1,10);
+    $("#overwrite").append("<h1>" + rolled + "</h1>");
+}
+
+function rolld12() {
+    $("#overwrite").html("<h1>D12 Rolled</h1>");
+    $("#overwrite").append("<h2>Result:</h2>");
+    let rolled = randomIntFromInterval(1,12);
+    $("#overwrite").append("<h1>" + rolled + "</h1>");
+}
+
+function rolld20() {
+    $("#overwrite").html("<h1>D20 Rolled</h1>");
+    $("#overwrite").append("<h2>Result:</h2>");
+    let rolled = randomIntFromInterval(1,20);
+    $("#overwrite").append("<h1>" + rolled + "</h1>");
+}
