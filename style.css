@@ -137,4 +137,13 @@ a:hover {
 
 .dice {
     padding-top: 10px;
+    font-weight: bold;
+}
+
+.die:hover {
+    cursor: pointer;
+}
+
+.die {
+    margin-top: 5px;
 }
