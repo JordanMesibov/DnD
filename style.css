@@ -127,7 +127,7 @@ a:hover {
 }
 
 .footer {
-    margin: 5px 1px;
+
     height: 100px;
     background-color: black;
     max-width: 100%;
@@ -146,4 +146,8 @@ a:hover {
 
 .die {
     margin-top: 5px;
+}
+
+#dieDisplay {
+    font-size: 50px;
 }

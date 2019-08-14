@@ -60,10 +60,27 @@ function randomIntFromInterval(min, max) { // min and max included
   }
 
 function rolld4() {
+    let diceImage;
     playDiceSound();
     $("#overwrite").html("<h1>D4 Rolled</h1>");
     $("#overwrite").append("<h2>Result:</h2>");
     let rolled = randomIntFromInterval(1,4);
+
+    
+        if (rolled == 1) {
+            diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+        }
+        if (rolled == 2) {
+            diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+        }
+        if (rolled == 3) {
+            diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+        }
+        if (rolled == 4) {
+            diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+        }
+    
+    $("#overwrite").append(diceImage);
     $("#overwrite").append("<h1>" + rolled + "</h1>");
 }
 
@@ -72,6 +89,27 @@ function rolld6() {
     $("#overwrite").html("<h1>D6 Rolled</h1>");
     $("#overwrite").append("<h2>Result:</h2>");
     let rolled = randomIntFromInterval(1,6);
+
+    if (rolled == 1) {
+        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+    }
+    if (rolled == 2) {
+        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+    }
+    if (rolled == 3) {
+        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+    }
+    if (rolled == 4) {
+        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+    }
+    if (rolled == 5) {
+        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+    }
+    if (rolled == 6) {
+        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+    }
+    
+    $("#overwrite").append(diceImage);
     $("#overwrite").append("<h1>" + rolled + "</h1>");
 }
 
@@ -80,6 +118,33 @@ function rolld8() {
     $("#overwrite").html("<h1>D8 Rolled</h1>");
     $("#overwrite").append("<h2>Result:</h2>");
     let rolled = randomIntFromInterval(1,8);
+
+    if (rolled == 1) {
+        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+    }
+    if (rolled == 2) {
+        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+    }
+    if (rolled == 3) {
+        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+    }
+    if (rolled == 4) {
+        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+    }
+    if (rolled == 5) {
+        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+    }
+    if (rolled == 6) {
+        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+    }
+    if (rolled == 7) {
+        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+    }
+    if (rolled == 8) {
+        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+    }
+
+    $("#overwrite").append(diceImage);
     $("#overwrite").append("<h1>" + rolled + "</h1>");
 }
 
@@ -88,6 +153,39 @@ function rolld10() {
     $("#overwrite").html("<h1>D10 Rolled</h1>");
     $("#overwrite").append("<h2>Result:</h2>");
     let rolled = randomIntFromInterval(1,10);
+
+    if (rolled == 1) {
+        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+    }
+    if (rolled == 2) {
+        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+    }
+    if (rolled == 3) {
+        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+    }
+    if (rolled == 4) {
+        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+    }
+    if (rolled == 5) {
+        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+    }
+    if (rolled == 6) {
+        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+    }
+    if (rolled == 7) {
+        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+    }
+    if (rolled == 8) {
+        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+    }
+    if (rolled == 9) {
+        diceImage = "<img style='max-width: 200px' src='./images/9die.png'></img>"
+    }
+    if (rolled == 10) {
+        diceImage = "<img style='max-width: 200px' src='./images/10die.png'></img>"
+    }
+
+    $("#overwrite").append(diceImage);
     $("#overwrite").append("<h1>" + rolled + "</h1>");
 }
 
@@ -96,6 +194,46 @@ function rolld12() {
     $("#overwrite").html("<h1>D12 Rolled</h1>");
     $("#overwrite").append("<h2>Result:</h2>");
     let rolled = randomIntFromInterval(1,12);
+
+    if (rolled == 1) {
+        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+    }
+    if (rolled == 2) {
+        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+    }
+    if (rolled == 3) {
+        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+    }
+    if (rolled == 4) {
+        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+    }
+    if (rolled == 5) {
+        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+    }
+    if (rolled == 6) {
+        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+    }
+    if (rolled == 7) {
+        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+    }
+    if (rolled == 8) {
+        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+    }
+    if (rolled == 9) {
+        diceImage = "<img style='max-width: 200px' src='./images/9die.png'></img>"
+    }
+    if (rolled == 10) {
+        diceImage = "<img style='max-width: 200px' src='./images/10die.png'></img>"
+    }
+    if (rolled == 11) {
+        diceImage = "<img style='max-width: 200px' src='./images/11die.png'></img>"
+    }
+    if (rolled == 12) {
+        diceImage = "<img style='max-width: 200px' src='./images/12die.png'></img>"
+    }
+
+    $("#overwrite").append(diceImage);
+
     $("#overwrite").append("<h1>" + rolled + "</h1>");
 }
 
@@ -104,5 +242,69 @@ function rolld20() {
     $("#overwrite").html("<h1>D20 Rolled</h1>");
     $("#overwrite").append("<h2>Result:</h2>");
     let rolled = randomIntFromInterval(1,20);
+
+    if (rolled == 1) {
+        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+    }
+    if (rolled == 2) {
+        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+    }
+    if (rolled == 3) {
+        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+    }
+    if (rolled == 4) {
+        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+    }
+    if (rolled == 5) {
+        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+    }
+    if (rolled == 6) {
+        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+    }
+    if (rolled == 7) {
+        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+    }
+    if (rolled == 8) {
+        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+    }
+    if (rolled == 9) {
+        diceImage = "<img style='max-width: 200px' src='./images/9die.png'></img>"
+    }
+    if (rolled == 10) {
+        diceImage = "<img style='max-width: 200px' src='./images/10die.png'></img>"
+    }
+    if (rolled == 11) {
+        diceImage = "<img style='max-width: 200px' src='./images/11die.png'></img>"
+    }
+    if (rolled == 12) {
+        diceImage = "<img style='max-width: 200px' src='./images/12die.png'></img>"
+    }
+    if (rolled == 13) {
+        diceImage = "<img style='max-width: 200px' src='./images/13die.png'></img>"
+    }
+    if (rolled == 14) {
+        diceImage = "<img style='max-width: 200px' src='./images/14die.png'></img>"
+    }
+    if (rolled == 15) {
+        diceImage = "<img style='max-width: 200px' src='./images/15die.png'></img>"
+    }
+    if (rolled == 16) {
+        diceImage = "<img style='max-width: 200px' src='./images/16die.png'></img>"
+    }
+    if (rolled == 17) {
+        diceImage = "<img style='max-width: 200px' src='./images/17die.png'></img>"
+    }
+    if (rolled == 18) {
+        diceImage = "<img style='max-width: 200px' src='./images/18die.png'></img>"
+    }
+    if (rolled == 19) {
+        diceImage = "<img style='max-width: 200px' src='./images/19die.png'></img>"
+    }
+    if (rolled == 20) {
+        diceImage = "<img style='max-width: 200px' src='./images/20die.png'></img>"
+    }
+
+    $("#overwrite").append(diceImage);
+
     $("#overwrite").append("<h1>" + rolled + "</h1>");
 }
