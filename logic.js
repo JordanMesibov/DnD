@@ -52,6 +52,7 @@ function playDiceSound(){
     var audio = document.getElementById("audio");
     audio.pause();
     audio.currentTime = 0;
+    audio.volume = 0.2;
     audio.play();
 }
 
