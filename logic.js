@@ -69,16 +69,16 @@ function rolld4() {
 
     
         if (rolled == 1) {
-            diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+            diceImage = "<img style='max-width: 200px' src='./images/1dieSpecial.png'></img>"
         }
         if (rolled == 2) {
-            diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+            diceImage = "<img style='max-width: 200px' src='./images/2dieSpecial.png'></img>"
         }
         if (rolled == 3) {
-            diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+            diceImage = "<img style='max-width: 200px' src='./images/3dieSpecial.png'></img>"
         }
         if (rolled == 4) {
-            diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+            diceImage = "<img style='max-width: 200px' src='./images/4dieSpecial.png'></img>"
         }
     
     $("#overwrite").append(diceImage);
@@ -92,22 +92,22 @@ function rolld6() {
     let rolled = randomIntFromInterval(1,6);
 
     if (rolled == 1) {
-        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/1dieSpecial.png'></img>"
     }
     if (rolled == 2) {
-        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/2dieSpecial.png'></img>"
     }
     if (rolled == 3) {
-        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/3dieSpecial.png'></img>"
     }
     if (rolled == 4) {
-        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/4dieSpecial.png'></img>"
     }
     if (rolled == 5) {
-        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/5dieSpecial.png'></img>"
     }
     if (rolled == 6) {
-        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/6dieSpecial.png'></img>"
     }
     
     $("#overwrite").append(diceImage);
@@ -121,28 +121,28 @@ function rolld8() {
     let rolled = randomIntFromInterval(1,8);
 
     if (rolled == 1) {
-        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/1dieSpecial.png'></img>"
     }
     if (rolled == 2) {
-        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/2dieSpecial.png'></img>"
     }
     if (rolled == 3) {
-        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/3dieSpecial.png'></img>"
     }
     if (rolled == 4) {
-        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/4dieSpecial.png'></img>"
     }
     if (rolled == 5) {
-        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/5dieSpecial.png'></img>"
     }
     if (rolled == 6) {
-        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/6dieSpecial.png'></img>"
     }
     if (rolled == 7) {
-        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/7dieSpecial.png'></img>"
     }
     if (rolled == 8) {
-        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/8dieSpecial.png'></img>"
     }
 
     $("#overwrite").append(diceImage);
@@ -156,34 +156,34 @@ function rolld10() {
     let rolled = randomIntFromInterval(1,10);
 
     if (rolled == 1) {
-        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/1dieSpecial.png'></img>"
     }
     if (rolled == 2) {
-        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/2dieSpecial.png'></img>"
     }
     if (rolled == 3) {
-        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/3dieSpecial.png'></img>"
     }
     if (rolled == 4) {
-        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/4dieSpecial.png'></img>"
     }
     if (rolled == 5) {
-        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/5dieSpecial.png'></img>"
     }
     if (rolled == 6) {
-        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/6dieSpecial.png'></img>"
     }
     if (rolled == 7) {
-        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/7dieSpecial.png'></img>"
     }
     if (rolled == 8) {
-        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/8dieSpecial.png'></img>"
     }
     if (rolled == 9) {
-        diceImage = "<img style='max-width: 200px' src='./images/9die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/9dieSpecial.png'></img>"
     }
     if (rolled == 10) {
-        diceImage = "<img style='max-width: 200px' src='./images/10die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/10dieSpecial.png'></img>"
     }
 
     $("#overwrite").append(diceImage);
@@ -197,40 +197,40 @@ function rolld12() {
     let rolled = randomIntFromInterval(1,12);
 
     if (rolled == 1) {
-        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/1dieSpecial.png'></img>"
     }
     if (rolled == 2) {
-        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/2dieSpecial.png'></img>"
     }
     if (rolled == 3) {
-        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/3dieSpecial.png'></img>"
     }
     if (rolled == 4) {
-        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/4dieSpecial.png'></img>"
     }
     if (rolled == 5) {
-        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/5dieSpecial.png'></img>"
     }
     if (rolled == 6) {
-        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/6dieSpecial.png'></img>"
     }
     if (rolled == 7) {
-        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/7dieSpecial.png'></img>"
     }
     if (rolled == 8) {
-        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/8dieSpecial.png'></img>"
     }
     if (rolled == 9) {
-        diceImage = "<img style='max-width: 200px' src='./images/9die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/9dieSpecial.png'></img>"
     }
     if (rolled == 10) {
-        diceImage = "<img style='max-width: 200px' src='./images/10die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/10dieSpecial.png'></img>"
     }
     if (rolled == 11) {
-        diceImage = "<img style='max-width: 200px' src='./images/11die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/11dieSpecial.png'></img>"
     }
     if (rolled == 12) {
-        diceImage = "<img style='max-width: 200px' src='./images/12die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/12dieSpecial.png'></img>"
     }
 
     $("#overwrite").append(diceImage);
@@ -245,61 +245,61 @@ function rolld20() {
     let rolled = randomIntFromInterval(1,20);
 
     if (rolled == 1) {
-        diceImage = "<img style='max-width: 200px' src='./images/1die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/1dieSpecial.png'></img>"
     }
     if (rolled == 2) {
-        diceImage = "<img style='max-width: 200px' src='./images/2die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/2dieSpecial.png'></img>"
     }
     if (rolled == 3) {
-        diceImage = "<img style='max-width: 200px' src='./images/3die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/3dieSpecial.png'></img>"
     }
     if (rolled == 4) {
-        diceImage = "<img style='max-width: 200px' src='./images/4die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/4dieSpecial.png'></img>"
     }
     if (rolled == 5) {
-        diceImage = "<img style='max-width: 200px' src='./images/5die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/5dieSpecial.png'></img>"
     }
     if (rolled == 6) {
-        diceImage = "<img style='max-width: 200px' src='./images/6die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/6dieSpecial.png'></img>"
     }
     if (rolled == 7) {
-        diceImage = "<img style='max-width: 200px' src='./images/7die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/7dieSpecial.png'></img>"
     }
     if (rolled == 8) {
-        diceImage = "<img style='max-width: 200px' src='./images/8die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/8dieSpecial.png'></img>"
     }
     if (rolled == 9) {
-        diceImage = "<img style='max-width: 200px' src='./images/9die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/9dieSpecial.png'></img>"
     }
     if (rolled == 10) {
-        diceImage = "<img style='max-width: 200px' src='./images/10die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/10dieSpecial.png'></img>"
     }
     if (rolled == 11) {
-        diceImage = "<img style='max-width: 200px' src='./images/11die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/11dieSpecial.png'></img>"
     }
     if (rolled == 12) {
-        diceImage = "<img style='max-width: 200px' src='./images/12die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/12dieSpecial.png'></img>"
     }
     if (rolled == 13) {
-        diceImage = "<img style='max-width: 200px' src='./images/13die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/13dieSpecial.png'></img>"
     }
     if (rolled == 14) {
-        diceImage = "<img style='max-width: 200px' src='./images/14die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/14dieSpecial.png'></img>"
     }
     if (rolled == 15) {
-        diceImage = "<img style='max-width: 200px' src='./images/15die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/15dieSpecial.png'></img>"
     }
     if (rolled == 16) {
-        diceImage = "<img style='max-width: 200px' src='./images/16die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/16dieSpecial.png'></img>"
     }
     if (rolled == 17) {
-        diceImage = "<img style='max-width: 200px' src='./images/17die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/17dieSpecial.png'></img>"
     }
     if (rolled == 18) {
-        diceImage = "<img style='max-width: 200px' src='./images/18die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/18dieSpecial.png'></img>"
     }
     if (rolled == 19) {
-        diceImage = "<img style='max-width: 200px' src='./images/19die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/19dieSpecial.png'></img>"
     }
     if (rolled == 20) {
         diceImage = "<img style='max-width: 200px' src='./images/20dieSpecial.png'></img>"
