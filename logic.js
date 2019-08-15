@@ -302,7 +302,7 @@ function rolld20() {
         diceImage = "<img style='max-width: 200px' src='./images/19die.png'></img>"
     }
     if (rolled == 20) {
-        diceImage = "<img style='max-width: 200px' src='./images/20die.png'></img>"
+        diceImage = "<img style='max-width: 200px' src='./images/20dieSpecial.png'></img>"
     }
 
     $("#overwrite").append(diceImage);
