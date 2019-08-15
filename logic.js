@@ -55,7 +55,7 @@ function crossbow() {
 }
 
 function dagger() {
-    $("#overwrite").html("<img style='max-width: 300px' src='./images/dagger.png'></img>");
+    $("#overwrite").html("<img style='max-width: 300px; max-height: 300px;' src='./images/dagger.png'></img>");
 }
 
 function playDiceSound(){
