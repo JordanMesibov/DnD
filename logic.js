@@ -46,6 +46,18 @@ function infernal() {
     $("#overwrite").append("<p>You know thaumaturgy and can cast  once per day. CHA is the spellcasting ability.</p>");
 }
 
+function quarterstaff() {
+    $("#overwrite").html("<img style='max-width: 300px' src='./images/quarterstaff.png'></img>");
+}
+
+function crossbow() {
+    $("#overwrite").html("<img style='max-width: 300px' src='./images/crossbow.png'></img>");
+}
+
+function dagger() {
+    $("#overwrite").html("<img style='max-width: 300px' src='./images/dagger.png'></img>");
+}
+
 function playDiceSound(){
       
 

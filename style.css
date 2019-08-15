@@ -148,6 +148,10 @@ a:hover {
     margin-top: 5px;
 }
 
+.die:hover {
+    background-color: #E0AC9D;
+}
+
 #dieDisplay {
     font-size: 50px;
 }
